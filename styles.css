@@ -51,7 +51,11 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-
+.couple-images img { 
+    animation: none !important;
+    transform: none !important; 
+    position: static !important; 
+}
 
 
 .floating-elements {
