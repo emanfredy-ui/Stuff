@@ -57,9 +57,9 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#f3e8ff",      // Light lavender
-        backgroundEnd: "#f3e8ff",        // Same tone for a smooth, solid background
-        buttonBackground: "#d16ba5",     // Lavender-pink button
+      backgroundStart: "#e5d4ff",      // Soft pastel purple
+backgroundEnd: "#e5d4ff",        // Same tone for a clean, even background
+  buttonBackground: "#d16ba5",     // Lavender-pink button
         buttonHover: "#e7a1c4",          // Lighter pink-purple hover
         textColor: "#c06c84"             // Soft plum text for contrast
     },
