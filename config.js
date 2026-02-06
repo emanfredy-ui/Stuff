@@ -79,8 +79,8 @@ const CONFIG = {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/drj9lyjof/video/upload/v1770345651/Hadestown_Original_Broadway_Cast_2019_-_Wait_for_Me_Reprise__SkySound_mp3cut.net_cvhwq2.mp3", // Music streaming URL
-        startText: "🎵 Reproducir Musica",        // Button text to start music
-        stopText: "🔇 Pausar Musica",         // Button text to stop music
+        startText: "🎵 Play",        // Button text to start music
+        stopText: "🔇 Stop",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
