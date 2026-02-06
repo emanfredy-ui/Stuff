@@ -44,13 +44,15 @@ body {
     margin-bottom: 20px;
 }
 
-.character-img { 
-    width: min(25vw, 120px); 
+.character-img {
+    width: 120px;        /* tamaño ideal en PC */
+    max-width: 30vw;     /* en móvil se reduce automáticamente */
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    animation: float 4s ease-in-out infinite; }
+    animation: float 4s ease-in-out infinite;
 }
+
 
 /* Floating animation */
 @keyframes float {
