@@ -36,6 +36,30 @@ body {
     overflow: visible !important;
 }
 
+.couple-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.character-img {
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+
 .floating-elements {
     position: fixed;
     width: 100%;
@@ -44,7 +68,7 @@ body {
     z-index: 1;
 }
 
-.heart, .bear {
+.heart, .flowers {
     position: absolute;
     font-size: 2rem;
     animation: float var(--float-duration) linear infinite;
