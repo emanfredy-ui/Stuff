@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Proxima pregunta ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Queires pasar San Valentin conmigo? 💐💐💐", // The big question!
+            text: "Quieres pasar San Valentin conmigo? 💐💐💐", // The big question!
             yesBtn: "Si!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -49,7 +49,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "De verdad, soy afortunado! 🎉🎉🎉🎉🎉🎉",
+        title: "De verdad, soy afortunado! 🎉🎉🎉🎉",
         message: "Te Amo!",
         emojis: "💕💕💕💕💕"  // These will bounce around
     },
