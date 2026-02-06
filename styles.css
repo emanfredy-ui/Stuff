@@ -44,12 +44,12 @@ body {
     margin-bottom: 20px;
 }
 
-.character-img {
-    width: 70px;      /* antes 150px */
+.character-img { 
+    width: min(25vw, 120px); 
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    animation: float 4s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite; }
 }
 
 /* Floating animation */
