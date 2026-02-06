@@ -29,7 +29,7 @@ const CONFIG = {
         },
         second: {
             text: "Cuanto me amas?",                          // For the love meter
-            startText: "Eah rayos asi!",                                   // Text before the percentage
+            startText: "Eah rayos asi?!",                                   // Text before the percentage
             nextBtn: "Proxima pregunta ❤️"                                         // Text for the next button
         },
         third: {
@@ -42,8 +42,8 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Eah rayos, Asi?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Cuantooooo! 🚀💝",              // Shows when they go past 1000%
+        extreme: "Eah rayos, Asi?? 🥰💝",  // Shows when they go past 5000%
+        high: "Cuantooooo?!! 🚀💝",              // Shows when they go past 1000%
         normal: "Cool! 🥰"                           // Shows when they go past 100%
     },
 
